@@ -1,6 +1,6 @@
 # Copilot Python Client
 
-Synchronous GitHub Copilot client and CLI with device flow auth, token exchange, model management, and streaming chat.
+Synchronous GitHub Copilot client and CLI with device flow auth, token exchange, model management, and streaming chat. This project exists for educational purposes only and is not an official GitHub Copilot product.
 
 **Package/CLI version:** 1.0.0
 
