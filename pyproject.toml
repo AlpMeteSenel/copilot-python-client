@@ -1,0 +1,43 @@
+[project]
+name = "copilot-client"
+version = "1.0.0"
+description = "Lightweight GitHub Copilot client with device login"
+authors = [{ name = "Alp Mete Senel", email = "alpmete@senel.biz" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "httpx[http2]>=0.27",
+]
+license = { text = "MIT" }
+keywords = ["github", "copilot", "client", "chat", "device-flow"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/AlpMeteSenel/copilot-python-client"
+Repository = "https://github.com/AlpMeteSenel/copilot-python-client"
+Issues = "https://github.com/AlpMeteSenel/copilot-python-client/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+copilot-client = "copilot_client.client:main"
