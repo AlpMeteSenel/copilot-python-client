@@ -1,8 +1,10 @@
 # Copilot Python Client
+[![PyPI version](https://img.shields.io/pypi/v/copilot-client.svg)](https://pypi.org/project/copilot-client/)
+[![Python versions](https://img.shields.io/pypi/pyversions/copilot-client.svg)](https://pypi.org/project/copilot-client/)
+[![Downloads](https://static.pepy.tech/badge/copilot-client)](https://pepy.tech/project/copilot-client)
+[![Educational Use Only](https://img.shields.io/badge/Status-Educational_Use_Only-orange)](https://github.com/AlpMeteSenel/copilot-python-client#readme)
 
 Synchronous GitHub Copilot client and CLI with device flow auth, token exchange, model management, and streaming chat. This project exists for educational purposes only and is not an official GitHub Copilot product.
-
-**Package/CLI version:** 1.0.0
 
 ## Installation
 
